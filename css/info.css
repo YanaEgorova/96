@@ -1,0 +1,27 @@
+.info {
+  padding: 10rem 0;
+  text-align: center;
+}
+.info .img {
+  max-width:30rem;
+}
+.info .item:not(:last-child) {
+  margin-bottom: 7rem;
+}
+@media screen and (min-width: 1024px) {
+
+  .info .list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .info .item:not(:last-child) {
+    margin-bottom: 0;
+  }
+  .info .item {
+    width: 30%;
+  }
+  .info .img {
+    max-width:20rem;
+  }
+}
